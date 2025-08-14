@@ -198,7 +198,8 @@ if (isset($_SESSION['user'])) {
       <h1>kehadiran</h1></h1>
       <p>Konten untuk pengaturan aplikasi.</p>
     </section>
-
+     
+    <!-- Section for Jadwal -->
     <section id="Jadwal" style="padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <h1 style="color: #1e1e2f; margin-bottom: 10px;">Jadwal Pelajaran</h1>
         <p style="color: #555; font-size: 1rem; line-height: 1.5;">
@@ -213,7 +214,7 @@ if (isset($_SESSION['user'])) {
      </ul>
    </section>
 
-
+    <!-- Section for Laporan -->
     <section id="Laporan">
       <h1>Laporan</h1>
       <h2>Laporan Siswa</h2>
@@ -250,7 +251,7 @@ if (isset($_SESSION['user'])) {
 
     <section id="settings">
       <h1>Pengaturan</h1>
-      <p>Konten untuk pengaturan aplikasi.</p>
+      <p>.</p>
     </section>
 
   </div>
